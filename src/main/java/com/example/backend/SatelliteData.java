@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+package com.example.backend;
 
 public class SatelliteData {
     private String orbitalData;
