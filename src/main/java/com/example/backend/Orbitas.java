@@ -93,16 +93,11 @@ public class Orbitas {
             AbsoluteDate targetDate = date.shiftedBy(i * timeSteps);
             SpacecraftState propagatedState = propagator.propagate(targetDate);
             l.add(propagatedState);
-
-
         }
-
         //AbsoluteDate targetDate = date.shiftedBy(Constants.JULIAN_DAY);
         //SpacecraftState propagatedState = propagator.propagate(targetDate);
 
         return l;
-
-
     }
 
 
